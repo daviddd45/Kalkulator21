@@ -6,6 +6,10 @@ Scanner scanner= new Scanner(System.in);
 System.out.print("Masukan harga barang =");
 double hargaBarang=scanner.nextDouble();
 
+double pajak =subTotal *1;
+double tips =subTotal *0.010;
+double total=subTotal + pajak + tips;
+
 System.out.println("subTotal :" + subTotal);
 System.out.println("pajak :" + pajak);
 System.out.println("tips :" + tips);
