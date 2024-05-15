@@ -3,6 +3,9 @@ public class CalculatorToko {
 public static void main(String[] args) {
 Scanner scanner= new Scanner(System.in);
 
+System.out.print("Masukan harga barang =");
+double hargaBarang=scanner.nexDouble();
+  
 System.out.print("Masukan harga Sayuran =");
 double hargaSayuran=scanner.nextDouble();
 double subTotal=hargaBarang + hargaSayuran ;
